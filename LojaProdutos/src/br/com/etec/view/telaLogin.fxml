@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="480.0" style="-fx-background-color: linear-gradient(to bottom, #010626,#021859, #171559, #03318C);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.etec.model.Operacoes">
+   <children>
+      <AnchorPane layoutX="165.0" layoutY="150.0" prefHeight="450.0" prefWidth="450.0" style="-fx-background-image: url(https://rockontro.org/wp-content/uploads/2015/03/yes_fragile.jpg?w=700); -fx-background-repeat: no-repeat; -fx-background-size: cover;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0">
+         <children>
+            <TextField fx:id="txfUsuario" layoutX="146.0" layoutY="123.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="30.0" />
+            <PasswordField fx:id="psfUsuario" layoutX="146.0" layoutY="183.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="90.0" />
+            <Button fx:id="btnAcessar" layoutX="194.0" layoutY="151.0" mnemonicParsing="false" onAction="#accessAccount" text="Log-In" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="150.0" />
+         </children>
+      </AnchorPane>
+      <Button layoutX="454.0" layoutY="2.0" mnemonicParsing="false" text="X" />
+   </children>
+</AnchorPane>
